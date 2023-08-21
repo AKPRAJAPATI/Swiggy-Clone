@@ -1,0 +1,387 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root{
+	--background :#FC8019 ;
+	--background-w : #F0F0F5;
+	--backgound-rounded : #CCC9C9;
+}
+.navbar{
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	box-shadow: 0.1px 0.1px 2.5px rgb(190, 189, 189);
+	position: fixed;
+	z-index: 1000;
+}
+.logo img	{
+	height: 40px;
+}
+.logo h1{
+	padding-left: 10px;
+	padding-right: 20px;
+	letter-spacing: 3px;
+	color: var(--background);
+}
+
+.location1 img{
+	height:35px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+.location1 p{
+	font-size: 20px;
+	font-weight: bold;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	padding-right: 15px;
+}
+.editText0{
+	margin-left: 20px;
+}
+.editText{
+	width: 500px;
+	height: 50px;
+	padding: 10px ;
+	border-radius: 10px ;
+	border: none;
+	background-color: var(--background-w);
+
+}
+
+.logo-back img	{
+	height: 40px;
+	padding-left: 20px;
+}
+
+.grid-item{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(3,1fr);
+	gap: 10px; 
+	margin-top: 50px;
+}
+
+.grid-item p{
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+}
+
+.gird-card{
+	width: 100%;
+	height: 200px;
+	background-color: white;
+	box-shadow: 0.2px 0.2px 5px var(--backgound-rounded);
+	border-radius: 10px;
+	display: grid;
+	place-items: center;
+	background-image: url("./img/apricots-2523272_640.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hr-10{
+	margin-top: 10px;
+}
+
+.order-food{
+	width: 50%;
+	height: 150px;
+	background-color: white;
+	box-shadow: 0.2px, 0.2px 5px var(--backgound-rounded);
+}
+
+.place{
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: repeat(4,1fr);
+	gap: 10px;
+}
+
+.place-item{
+	border: 1px solid black;
+	display: grid;
+	place-items: center;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.social{
+	width: 100%;
+	height: 120px;
+	background-color: var(--backgound-rounded);
+}
+
+.social2{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.one{
+	width:100%;	
+	height: 120px;
+	display: grid;
+	place-items: center;
+}
+
+.one p{
+	font-size: 35px;
+}
+
+.two{
+	width: 100%;
+	height: 120px;
+	display: grid;
+	place-items: center;
+}
+
+/* /////////////////////////  NAVIGATION DESIGN END///////////////////// */
+.hero{
+	width: 100%;
+	height: 390px;
+	background-color: #fff;
+	background-image: linear-gradient(0deg, #c9c6c6 0%, #fff 100%);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.mr-10{
+	margin-top: 10px;
+}
+.hero-degin{
+	 width: 78%;
+	 height: 390px;
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 justify-content: space-between;
+}
+
+.left p{
+	font-size: 50px;
+	margin-top: 5px;
+	font-weight: bold;
+	
+}
+
+.right img{
+	margin-top: 60px;
+	 height: 300px;
+}
+.categories{
+	margin-top: 30px;
+}
+.category{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+}
+
+.category p{
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.circle{
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	margin-right: 10px;
+	background-color:var(--backgound-rounded);
+}
+
+.circle img{
+	height: 40px;
+	padding: 10px;
+}
+
+.item-data{
+	width: 100%;
+	height: 170px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: var(--background-w);
+	box-shadow: 0.1px 0.1px 2px black;
+	border-radius: 5px ;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.item{
+	width: 120px;
+	height: 150px;
+	background-color: white;
+	border-radius: 10px ;
+	box-shadow: 0.2px 0.5px 3px black;
+	display: grid;
+	place-items: center;
+	margin-left: 10px;
+}
+
+.item img{
+	height: 80px;
+}
+
+.item p{
+	color: black;
+}
+/* ///////////////////////////// HERO SECTION /////////// */
+
+.hr-top{
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+.next-data {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.next-data p{
+	font-size: 30px;
+	font-weight: bold;
+}
+ 
+.card-4{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(3,1fr);
+	gap: 10px;
+	width: 100%;	 
+}
+
+.cardbox{
+	height: 250px;
+	width: 100%;
+	background-color: var(--backgound-rounded);
+	margin-right: 10px;
+	border-radius: 5px;
+	box-shadow: 0.2px 0.2px 6px black;
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	background-image: url("./img/food2.jpg");
+	padding: 1em 0.5em;
+	cursor: pointer;
+	background-size: 100% 200%;
+  	transition: 1s;
+}
+
+.cardbox:hover{
+	font-size: 30px;
+	color: white;
+	background-position: 100% 100%;
+	background-image: url(./img/food1.jpg);
+	background-size: cover;
+}
+
+.text{
+	z-index: 1;
+}
+
+.text img{
+	height: 300px;
+}
+
+.text p{
+	color: white;
+	text-align: center;
+	left: 50%;
+	bottom: 30%;
+	font-size: 20px;
+	transform: translate(-50%,-30%);
+	position: absolute;
+}
+
+.text .secondd{
+	color: white;
+	text-align: center;
+	left: 50%;
+	bottom: 23%;
+	font-size: 20px;
+	transform: translate(-50%,-23%);
+	position: absolute;
+}
+
+.header{
+	background-color: black;
+	width: 100%;
+	height: 300px;
+}
+
+.header{
+	padding-top: 50px;
+}
+
+.lnk{
+	display: flex;
+	justify-content: space-between;
+}
+
+.lnk ul li{
+	color: white;
+	margin-top: 10px;
+}
+
+.logoText p{
+	font-size: 27px;
+	color: var(--background);
+}
+
+.company  p{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.lnk ul li{
+	list-style: none;
+}
+
+.comp p{
+	font-weight: bold;
+	font-size: 27px;
+}
+
+.contect p{
+	font-weight: bold;
+	font-size: 27px;
+}
+
+.legal p{
+	font-weight: bold;
+	font-size: 27px;
+}
+/* //////////////////////////////////////////UTILITY CLASS/////////////// */
+.background{
+	background-color: #FC8019 ;
+}
+.black-white{
+	background-color: #F0F0F5;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.center{
+	text-align: center;
+	align-items: center;
+}
+.container{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.hr{
+	width: 100%;
+	background-color: var(--backgound-rounded);
+	height: 2px;
+}
